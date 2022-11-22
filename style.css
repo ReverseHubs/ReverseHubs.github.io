@@ -9,15 +9,15 @@
     justify-content: center;
     color: rgb(239, 13, 13);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* min-height: 10vh; */
-    background: rgb(255, 255, 255);  
+    min-height: 10vh;
+    background: rgb(0, 0, 0);  
   }
   .btn-container{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(224, 224, 224);  
+    background: rgb(80, 79, 79);  
   }
   /* body{
     display: flex;
