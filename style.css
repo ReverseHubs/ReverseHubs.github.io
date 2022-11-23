@@ -1,72 +1,74 @@
 *{
+    background-color: black;
+    color: red;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 18px;
     box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  .top-container{
-    display: flex;
-    justify-content: center;
-    color: rgb(239, 13, 13);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    min-height: 10vh;
-    background: rgb(0, 0, 0);  
-  }
-  .btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: rgb(80, 79, 79);  
-  }
-  /* body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: rgb(224, 224, 224);
-  } */
-
-  .download-btn{
     position: relative;
     font-size: 1.3em;
     font-weight: 400;
-    background: #4285f4;
-    color: #fff;
+    color: red;
+
+  } 
+  */
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.3em;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+.textarea {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     padding: 18px;
-    border-radius: 30px;
-    text-decoration: none;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: red;
+    left: 45%;
+    height: fit-content;
+    /* min-height: 100vh; */
+    /* background: rgb(224, 224, 224); */
+
+    position: relative;
+    background-color: #dddddd;
+    color: #666666;
+    padding: 1em;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 200px;
+    height: 100px;
+    transition: all 0.2s;
+  }
+  
+  .textarea:hover {
     cursor: pointer;
-    transition: background 0.3s ease;
-    box-shadow: 0 5px 25px rgba(1, 1, 1, 0.26);
+    background-color: #eeeeee;
   }
-  .download-btn:hover{
-    background: #116cff;
-  }
-  .download-btn i{
-    margin-right: 10px;
-  }
-  .countdown{
-    font-size: 1.3em;
-    font-weight: 700;
-  }
-  .countdown span{
-    font-size: 1.3em;
-    font-weight: 800;
-    color: #2e7cfa;
-  }
-  .pleaseWait-text{
-    font-size: 1.3em;
-    font-weight: 700;
-    display: none;
-  }
-  .manualDownload-text{
-    font-size: 1.3em;
-    font-weight: 600;
-    display: none;
-  }
-  .manualDownload-link{
-    font-size: 1.1em;
-    font-weight: 600;
-    color: #2e7cfa;
+  
+  .textarea:focus {
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
   }
